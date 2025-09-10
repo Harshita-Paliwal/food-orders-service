@@ -30,7 +30,7 @@ Swagger UI: For interactive API documentation.
 
 🚀 Quick Start
 
-1\. Create Database
+1. Create Database
 
 First, create the database in your MySQL instance.
 
@@ -40,41 +40,32 @@ CREATE DATABASE food\_orders\_db CHARACTER SET utf8mb4 COLLATE utf8mb4\_0900\_ai
 ```
 
 
-2\. Update Configuration
+2. Update Configuration
 
 Open src/main/resources/application.properties and update the database credentials.
-
-
-
+```sql
 spring.datasource.url=jdbc:mysql://localhost:3306/food\_orders\_db
-
 spring.datasource.username=root
-
-spring.datasource.password=your\_password
-
+spring.datasource.password=your_password
 spring.flyway.enabled=true
+```
 
 
-
-3\. Run Application
+3. Run Application
 
 Navigate to the project's root directory and run the application using Maven.
 
-
-
-mvn spring-boot:run
-
-
+`mvn spring-boot:run`
 
 The application will start on port 8080.
 
 
 
-App URL: http://localhost:8080
+App URL: `http://localhost:8080`
 
 
 
-Swagger UI: http://localhost:8080/swagger-ui/index.html
+Swagger UI: `http://localhost:8080/swagger-ui/index.html`
 
 
 
@@ -82,14 +73,14 @@ Swagger UI: http://localhost:8080/swagger-ui/index.html
 
 Place an Order
 
-POST /api/orders
+POST `/api/orders`
 
 
 
 Body (JSON):
 
 
-
+```json
 {
 
 &nbsp; "customerName": "Harshi",
@@ -107,7 +98,7 @@ Body (JSON):
 &nbsp; "orderTime": "2025-09-09T09:30:00Z"
 
 }
-
+```
 
 
 Get All Orders (Paged)
