@@ -12,23 +12,24 @@ A simplified backend service that simulates processing of food delivery orders u
 
 Java 17 \& Spring Boot 3: For building the backend service.
 
-
-
 MySQL: For persistent data storage.
-
-
 
 JPA + Hibernate: For database interactions.
 
-
-
 Flyway: For managing database schema migrations.
-
-
 
 Swagger UI: For interactive API documentation.
 
+**Have a look at some screenshots first !**
+![Console](https://github.com/Harshita-Paliwal/food-orders-service/blob/70e1d8f6e81b89a41c055df8d6cdaae43c55d663/images/console.png)
 
+![GET](https://github.com/Harshita-Paliwal/food-orders-service/blob/70e1d8f6e81b89a41c055df8d6cdaae43c55d663/images/Postman-get.png)
+
+![POST](https://github.com/Harshita-Paliwal/food-orders-service/blob/70e1d8f6e81b89a41c055df8d6cdaae43c55d663/images/postman-post.png)
+
+![SWAGGER](https://github.com/Harshita-Paliwal/food-orders-service/blob/70e1d8f6e81b89a41c055df8d6cdaae43c55d663/images/Swagger.png)
+
+![SWAGGER1](https://github.com/Harshita-Paliwal/food-orders-service/blob/70e1d8f6e81b89a41c055df8d6cdaae43c55d663/images/Swagger1.png)
 
 🚀 Quick Start
 
