@@ -85,23 +85,14 @@ Body (JSON):
 ```json
 
 {
-
-&nbsp; "customerName": "Harshi",
-
-&nbsp; "items": \[
-
-&nbsp;   {"name":"Veg Burger","quantity":2,"unitPrice":89.5},
-
-&nbsp;   {"name":"French Fries","quantity":1,"unitPrice":59.0}
-
-&nbsp; ],
-
-&nbsp; "totalAmount": 238.0,
-
-&nbsp; "orderTime": "2025-09-09T09:30:00Z"
-
+  "customerName": "Harshi",
+  "items": [
+    {"name":"Veg Burger","quantity":2,"unitPrice":89.5},
+    {"name":"French Fries","quantity":1,"unitPrice":59.0}
+  ],
+  "totalAmount": 238.0,
+  "orderTime": "2025-09-09T09:30:00Z"
 }
-
 ```
 
 
@@ -115,21 +106,21 @@ Sample Response:
 ```
 {
 
-&nbsp; "id": 1,
+ "id": 1,
 
-&nbsp; "customerName": "Harshi",
+ "customerName": "Harshi",
 
-&nbsp; "items": \[
+ "items": \[
 
-&nbsp;   {"name":"Veg Burger","quantity":2,"unitPrice":89.5},
+ {"name":"Veg Burger","quantity":2,"unitPrice":89.5},
 
-&nbsp;   {"name":"French Fries","quantity":1,"unitPrice":59.0}
+  {"name":"French Fries","quantity":1,"unitPrice":59.0}
 
-&nbsp; ],
+ ],
 
-&nbsp; "totalAmount": 238.0,
+ "totalAmount": 238.0,
 
-&nbsp; "orderTime": "2025-09-09T09:30:00Z"
+ "orderTime": "2025-09-09T09:30:00Z"
 
 }
 ```
