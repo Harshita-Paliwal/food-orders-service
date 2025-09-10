@@ -35,9 +35,9 @@ Swagger UI: For interactive API documentation.
 First, create the database in your MySQL instance.
 
 
-
+```sql
 CREATE DATABASE food\_orders\_db CHARACTER SET utf8mb4 COLLATE utf8mb4\_0900\_ai\_ci;
-
+```
 
 
 2\. Update Configuration
