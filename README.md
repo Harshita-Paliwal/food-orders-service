@@ -2,9 +2,11 @@ Food Orders Service
 
 🍔 Spring Boot REST API for Food Delivery Orders
 
-This is a minimal backend service built with Spring Boot and MySQL to simulate the processing of food delivery orders. It includes REST APIs to place orders and retrieve them with pagination.
+A simplified backend service that simulates processing of food delivery orders using Java, Spring Boot, and MySQL.
 
-
+![Java](https://img.shields.io/badge/Java-17-blue) 
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3-brightgreen) 
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
 
 ⚙️ Tech Stack
 
@@ -81,6 +83,7 @@ Body (JSON):
 
 
 ```json
+
 {
 
 &nbsp; "customerName": "Harshi",
@@ -98,19 +101,18 @@ Body (JSON):
 &nbsp; "orderTime": "2025-09-09T09:30:00Z"
 
 }
+
 ```
 
 
 Get All Orders (Paged)
 
-GET /api/orders?page=0\&size=5\&sort=orderTime,desc
+GET `/api/orders?page=0\&size=5\&sort=orderTime,desc`
 
 
 
 Sample Response:
-
-
-
+```
 {
 
 &nbsp; "id": 1,
@@ -130,22 +132,13 @@ Sample Response:
 &nbsp; "orderTime": "2025-09-09T09:30:00Z"
 
 }
-
+```
 
 
 📌 Important Notes
 
 Ensure your MySQL service is running before you start the application.
-
-
-
 Use a tool like Postman or cURL to test the API endpoints.
-
-
-
 The items column is stored as JSON to keep the schema simple. A separate relational table would be needed if you required advanced queries on individual items.
-
-
-
 The indexes on order\_time and customer\_name are crucial for efficient sorting and filtering.
 
